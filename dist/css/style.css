@@ -172,5 +172,6 @@ ul li {
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+  margin-left: -17px;
 }
 
