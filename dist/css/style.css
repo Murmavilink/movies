@@ -159,7 +159,6 @@ body {
 }
 
 .modal__card {
-  /* background-color: #ffffff; */
   max-width: 600px;
   padding: 16px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
@@ -218,6 +217,10 @@ ul li {
   .modal__card {
     max-width: 305px;
     padding: 10px;
+  }
+
+  .modal__movie-title, .modal__movie-release-year {
+    font-size: 18px;
   }
 
 }
