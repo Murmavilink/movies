@@ -28,11 +28,27 @@ body {
   color: #ffffff;
 }
 
-.header__search {
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__search {
   padding: 8px;
   border: 2px solid #1a191f;
   border-radius: 5px;
   outline: none;
+}
+
+.form__btn {
+  height: 35px;
+  width: 35px;
+  border: 2px solid #1a191f;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0c3d8b;
+  cursor: pointer;
 }
 
 .movies {
@@ -149,6 +165,7 @@ body {
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  word-wrap: break-word;
 }
 
 .modal__movie-backdrop {

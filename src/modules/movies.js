@@ -7,7 +7,8 @@ const movies = () => {
     const API_URL_MOVIE_DETAILS = 'https://kinopoiskapiunofficial.tech/api/v2.2/films/';
 
     const form = document.querySelector('form');
-    const search = document.querySelector('.header__search');
+    const search = document.querySelector('.form__search');
+    
     const moviesEl = document.querySelector('.movies');
     const modalEl = document.querySelector('.modal');
 
